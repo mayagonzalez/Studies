@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JSON Example</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="companies.json"></script>
+        <script type="text/javascript">
+        //ToDo: finish parsing a JSon file
+        let allCompanies = "";
+        var dcompanies = JSON.parse(companies);
+
+        //Get Elements with JS
+        var myIDElement = document.getElementById("id");
+        var myClassNameElement = document.getElementsByClassName("className");
+        var myNameElement = document.getElementsByName("Name");
+        var myTagNameElement = document.getElementsByTagName("tagName");
+
+        </script>
+
+        <p><h1>JSON</h1>
+            JSON = JavaScript Object Notation - formatação leve de troca de dados. Uma coleção de pares de chaves e valores, caracterizado como objeto.<br>
+            Tipos aceitos de valores: string, number, null, array, object.<br>
+            {<br>
+                "nome": "Mayã",<br>
+                "idade": 26,<br>
+                "emprego": null,<br>
+                "amigos": ["Nayla", "Marília", "Chrys", "Pedro"]<br>
+            }<br>
+            <img alt="convert-xml-to-json" src="convert-xml-to-json.png">
+
+        </p>
+
+        <p><h1>Protocolos HTTP</h1>
+            HTTP = HiperText Transference Protocol  é o protocolo padrão para a web. É por meio dele que o navegador requisita ao servidor as páginas na web<br>
+            HTTPS = HiperText Transference Protocol Security, (Criptografado) Adiciona-se ao protocolo HTTP uma camada extra de segurança, o certificado SSL. Este, por sua vez, criptografa o conteúdo transferido e só permite sua leitura a quem tiver uma chave para “abri-lo”
+        </p>
+
+        <p>
+            <a href="https://http.cat/"> https://http.cat/</a><br>
+            <h3>Status Response</h3>
+            1xx Informational EX: 100 Continue<br>
+            2xx Success EX: 200 OK<br>
+            3xx Redirection EX: 301 Moved Permanently<br>
+            4xx Client error EX: 400 Bad Request, 403 Forbidden, 404 Not Found<br>
+            5xx Server errorEX: 500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable, 504 Gateway Timeout<br>
+        </p>
+
+        <p><h1>Orientação a Objetos</h1>
+            <a href="https://www.devmedia.com.br/principais-conceitos-da-programacao-orientada-a-objetos/32285">https://www.devmedia.com.br/principais-conceitos-da-programacao-orientada-a-objetos/32285</a> 
+            <br><br>
+
+            Uma classe é uma forma de definir um tipo de dado em uma linguagem orientada a objeto. Ela é formada por dados e comportamentos.<br>
+
+            Para definir os dados são utilizados os atributos, e para definir o comportamento são utilizados métodos.<br>
+            Com a classe definida, podem ser criados diversos objetos do tipo da classe criada. (Classe classe = new Classe())<br>
+            <b>Encapsulamento</b> = get set<br>
+            <b>Associação de Classes</b> = Quando uma classe tem relacionamento com outra (ex: classe Pessoa possui classe Carro ou List<Carro></Carro>)<br>
+            <b>Herança</b> = Tipo de relacionamento que define que uma classe é do tipo de outra (public class Funcionario : Pessoa)<br>
+            
+            <h3>Tipos de Acesso aos atributos:</h3>
+            
+            1. <b>public:</b> que permite que métodos e atributos sejam acessados diretamente de qualquer classe;<br>
+            2. <b>private:</b> que permite que métodos e atributos sejam acessados apenas dentro da classe;<br>
+            3. <b>protected:</b> que permite que métodos e atributos sejam acessados apenas dentro da própria classe e em classes filhas;<br>
+            4. tipo de acesso padrão, que permite que métodos e atributos sejam acessadas por qualquer classes que esteja no mesmo pacote.<br>
+
+        </p>
+
+    </body>
+</html>
+</html>
