@@ -10,11 +10,11 @@ ok - Cai umas coisas de JavaScript, nada muito avançado, coisas do tipo como pe
 ok - Cai tbm sobre arquivo JSON
 ok - Tipo, eles passam um exemplo em XML e pede pra mostrar como fica em json
 Tem umas de resolver algoritmos como: fazer um código que ordene um array de números sem usar funções prontas
-Pergunta sobre ferramentas de controle de versão o que é e exemplos (Git)
+ok - Pergunta sobre ferramentas de controle de versão o que é e exemplos (Git)
 ok - Pergunta o que é orientação a objetos
 Tem umas questões com uns algoritmos e pede pra vc falar qual vai ser o resultado disso
 Perguntas coisas de HTML, o que é CSS, HTML DOM, meta tag
-Funcionalidades de html5
+ok - Funcionalidades de html5
 Pede exemplos de bibliotecas javascript
 ok - O que é http e https
 ok - O que são alguns status http tipo 300, 503, etc
